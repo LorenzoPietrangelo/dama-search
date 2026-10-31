@@ -4,7 +4,7 @@ Il maestro e' una ricerca alfa-beta molto piu' profonda (TEACHER_DEPTH semimosse
 con valutazione a materiale e senza limite di budget. Per ogni posizione s
 salviamo il valore che il maestro da' a OGNI mossa legale. Questi valori servono:
   - in predictor.py come target P*(s') del predittore (s' = posizione dopo la mossa);
-  - in experiment.py come decisione "corretta" con cui giudicare A, B e C.
+  - in experiment.ipynb come decisione "corretta" con cui giudicare A, B e C.
 Il costo del maestro e' offline: non entra nel budget online del confronto.
 """
 import json
